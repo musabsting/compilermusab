@@ -1,0 +1,87 @@
+body{
+    width: 1300px;
+    background-image: url(go.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+}
+form{
+    display: flex;
+   
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(160, 197, 197);
+    margin-left: 500px;
+    border-radius: 10%;
+    padding: 10px;
+}
+div input{ 
+    width: 270px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px 10px 8px 8px ;
+text-align: center;
+margin-left: 5px;
+outline: 1px;
+border-style: none;
+}
+.save input{
+
+    width: 90px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px 5px 5px 5px ;
+text-align: center;
+margin-left: 100px;
+background-color:green;
+outline: 1px;
+border-style: none;
+cursor: grab;
+
+}
+p{
+    color: rgb(80, 156, 45);
+    text-decoration: double;
+    text-transform: capitalize;
+    text-shadow: 10 10 10 gray;
+}
+div.main{
+    display: flex;
+    flex-direction: row;
+}
+main.one{
+    
+    display: flex;
+    border-radius: 10%;
+   width:215px ;
+   height: 220px;
+   background-color: gray;
+   margin-left: 40px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.first span img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    margin: 3px;
+    box-shadow: 10px 10px 10px rgb(180, 102, 102);
+
+}
+.co{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+h1{
+    color:red;
+    text-align: center;
+    text-transform: uppercase;
+}
